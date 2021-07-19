@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 style="font-family: 'Oswald', sans-serif;">Face Recognition Login System</h2>
+</div>
+
+<div class="jumbotron mt-2   text-center" style="background:white" id="service">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2 style="font-family: 'Oswald', sans-serif;">TECHNOLOGY USED</h2>
+      <ul class="list-group">
+  <li class="list-group-item font-weight-bold" style="font-family: 'Open Sans', sans-serif;">HTML , CSS</li>
+        <li class="list-group-item font-weight-bold" style="font-family: 'Open Sans', sans-serif;">FLASK </li>
+        <li class="list-group-item font-weight-bold" style="font-family: 'Open Sans', sans-serif;">FACE_RECOGNITION LIBRARY</li>
+        <li class="list-group-item font-weight-bold" style="font-family: 'Open Sans', sans-serif;">MYSQL</li>
+
+</ul>
+    </div>
+
+</div>
+</div>
+
+<div class="jumbotron    text-center" style="background:white" id="service">
+
+  <div class="row">
+    <div class="col-md-12" >
+        <h2 style="font-family: 'Oswald', sans-serif;">REGISTRATION FORM</h2>
+    <img src="1.png" width="100%" height="100%">
+    </div>
+      </div>
+
+    <div class="row">
+      <div class="col-md-12">
+
+    <img src="2.png" width="100%" height="100%">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+
+ <h2 style="font-family: 'Oswald', sans-serif;">LOGIN FORM</h2>
+    <img src="3.png" width="100%" height="100%">
+    </div>
+      </div>
+     <div class="row mt-5">
+      <div class="col-md-12">
+
+ <h2 style="font-family: 'Oswald', sans-serif;">LOGIN RESULTS</h2>
+    <img src="4.png" width="100%" height="100%">
+    </div>
+      </div>
+
+</div>
+<div class="jumbotron    text-center" style="background:white" id="service">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1 style="font-family: 'Oswald', sans-serif;">
+        DESCRIPTION
+      </h1>
+      <p style="font-family: 'Open Sans', sans-serif;">
+        At First, We have imported all the necessary
+modules of Face_Recognition, Os, and OpenCV in
+our .py script. When the user submits his mailid, the
+System will check if the user id is Present in the
+database. If it's not , then the System will generate
+the output as "You Have not Registered yet". But if
+it's present in the database, the system will store
+the image in a variable and the face_locations
+function will detect the face using HOG(Histogram
+of Oriented Gradients ) Algorithm. Using the
+face_encodings Function 128 Different Features of
+the face will be stored in a variable. and after that,
+the System will compare the Encoded Face with
+the user's face. If the faces match, the system will
+generate the output as "Authentication Successful"
+else system will generate the output as
+"Unauthorized Access".
+      </p>
+    </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
